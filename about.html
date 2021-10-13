@@ -17,6 +17,7 @@
     <header>
         <div class="jumbotron jumbotron-fluid">
             <div class="container-fluid">
+                <!--fix image so it's centered-->
                 <div class="row">
                     <img src="img/LogoNebulaBanner - Copy.png" class="img-fluid" alt="Plant Werks Banner" />
                 </div>
@@ -26,7 +27,6 @@
     </header>
 
     <!--change font to match logo font-->
-    <!--remove white background from logo-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/plantwerks logo.png" height="40" width="40" /></a>
@@ -34,19 +34,16 @@
                     class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <div class="col btn-group btn-group-toggle" data-toggle="buttons">
-                    <a class="btn btn-outline-light" href="index.html" name="navButton" id="Home">Home
-                    </a>
-                    <a class="btn btn-outline-light active" href="#" name="navButton" id="about"> About </a>
-                    <a class="btn btn-outline-light" href="products.html" name="navButton" id="products"> Products
-                    </a>
-                    <a class="btn btn-outline-light" href="offerings.html" name="navButton" id="blog"> Offerings </a>
-                    <a class="btn btn-outline-light" href="contact.html" name="navButton" id="contact"> Contact Us
-                    </a>
-                    <a class="btn btn-outline-light" href="findus.html" name="navButton" id="findUs"> Find Us
-                    </a>
-                </div>
+            <div class="collapse navbar-collapse justify-content-center" id="plantwerksNavbar">
+                <ul class= "navbar-nav">
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light" href="index.html" name="navButton" id="Home">Home
+                    </a></li>
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light active" href="#" name="navButton" id="about"> About </a></li>
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light" href="products.html" name="navButton" id="products"> Products </a></li>
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light" href="offerings.html" name="navButton" id="offerings"> Offerings </a></li>
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light" href="contact.html" name="navButton" id="contact"> Contact Us </a></li>
+                    <li class="nav-item"><a class="btn btn-lg btn-outline-light" href="findus.html" name="navButton" id="findUs"> Find Us </a></li>
+                </ul>
             </div>
         </div>
     </nav>
