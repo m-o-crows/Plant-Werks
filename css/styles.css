@@ -2,6 +2,10 @@
     background-color: #1b003d;
 }
 
+.navbar-collapse {
+    margin-left: -65px;
+}
+
 .jumbotron{
     margin: 0;
     padding: 0px;
