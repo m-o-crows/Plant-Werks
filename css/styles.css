@@ -14,3 +14,7 @@
     margin: 0;
     padding: 0px;
 }
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.466);
+}
